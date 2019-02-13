@@ -26,6 +26,7 @@ g3 <- college %>% ggplot(aes(sample=Books)) +
 
 g1
 g2
+
 g3
 
 grid.arrange(g1, g2, g3, ncol=2)
