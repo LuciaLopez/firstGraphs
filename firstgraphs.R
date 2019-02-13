@@ -24,6 +24,11 @@ g3 <- college %>% ggplot(aes(sample=Books)) +
   geom_abline(lty=3, col = "deepskyblue4") +
   ggtitle("My third fabulous graph in R") + theme_gdocs()
 
+g4 <- college %>% ggplot(aes(sample=Books)) +
+  geom_qq(dparams = params, col = "springgreen4") +
+  geom_abline(lty=3, col = "deepskyblue4") +
+  ggtitle("My 4 fabulous graph in R")
+
 g1
 g2
 g3
