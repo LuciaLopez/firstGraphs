@@ -1,4 +1,5 @@
 library(tidyverse)
+<<<<<<< HEAD
 library(ggthemes)
 library(gridExtra)
 
@@ -35,3 +36,12 @@ g3
 g4
 
 grid.arrange(g1, g2, g3, ncol=2)
+=======
+
+college <- read.csv("../Downloads/College.csv")
+
+#My three first graphs
+g1
+g2
+g3
+>>>>>>> 79fcf420a4397d81275bc774b1146e868125369e
